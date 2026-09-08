@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* Denna tar bort webbläsarens 8px default marginal rnt sidan */

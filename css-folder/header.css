@@ -1,0 +1,32 @@
+.siteheader nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.siteheader nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #3c493f;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition:
+    color 0.3s,
+    border-bottom-color 0.3s;
+}
+
+.siteheader nav a:hover {
+  color: #55aaa7;
+  border-bottom-color: #2e8b57;
+}
+
+.siteheader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f0f7f4;
+  border-bottom: 2px solid #3c493f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
