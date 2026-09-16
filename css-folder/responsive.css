@@ -8,12 +8,12 @@
   .wrapper {
     padding: 5rem;
   }
-  .main-article {
+  .hero {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: left;
   }
-  .main-article img {
+  .hero img {
     max-height: 400px;
     width: 100%;
     height: 100%;
@@ -34,7 +34,7 @@
     grid-column: 1/4;
   }
 
-  @media (minx-width: 850px) {
+  @media (min-width: 850px) {
     main {
       text-align: left;
     }
@@ -44,7 +44,7 @@
     .project img {
       grid-row: auto;
     }
-    .project ul {
+    .project .tech-tags {
       justify-content: flex-start;
     }
   }
