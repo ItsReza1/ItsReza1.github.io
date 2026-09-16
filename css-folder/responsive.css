@@ -33,19 +33,19 @@
   .footer-text .icons {
     grid-column: 1/4;
   }
+}
 
-  @media (min-width: 850px) {
-    main {
-      text-align: left;
-    }
-    .project {
-      grid-template-columns: 1fr 1fr;
-    }
-    .project img {
-      grid-row: auto;
-    }
-    .project .tech-tags {
-      justify-content: flex-start;
-    }
+@media (min-width: 850px) {
+  main {
+    text-align: left;
+  }
+  .project {
+    grid-template-columns: 1fr 1fr;
+  }
+  .project img {
+    grid-row: auto;
+  }
+  .project .tech-tags {
+    justify-content: flex-start;
   }
 }
