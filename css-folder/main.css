@@ -11,7 +11,7 @@
   --corners-sm: 10px 0;
   --base-font-size: 1rem;
 }
-/* set the box sizing to border-box for layouts */
+
 html {
   box-sizing: border-box;
 }
@@ -93,7 +93,6 @@ ul svg {
   fill: var(--marina);
 }
 
-/* mobile layout for bio */
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -113,7 +112,6 @@ footer {
   text-align: center;
 }
 .footer-text {
-  color: var(--ld-text);
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr;
@@ -133,9 +131,6 @@ footer {
 }
 .h2-footer {
   margin: 2rem 0;
-}
-.footer-text .social {
-  fill: var(--ebony);
 }
 .footer-text .social:hover {
   fill: var(--marina);
