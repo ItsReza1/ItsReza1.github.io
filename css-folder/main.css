@@ -94,14 +94,14 @@ ul svg {
 }
 
 /* mobile layout for bio */
-.main-article {
+.hero {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   text-align: center;
 }
 
-.main-article img {
+.hero img {
   width: 100%;
   max-width: 300px;
   height: auto;
