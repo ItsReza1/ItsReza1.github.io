@@ -39,13 +39,14 @@
   main {
     text-align: left;
   }
-  .project {
+
+  main article {
     grid-template-columns: 1fr 1fr;
   }
-  .project img {
+  main article img {
     grid-row: auto;
   }
-  .project .tech-tags {
+  main article .tech-tags {
     justify-content: flex-start;
   }
 }

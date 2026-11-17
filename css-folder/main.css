@@ -33,8 +33,6 @@ body {
   color: var(--onyx);
 }
 
-/* Vi gör så bilden inte går utanför skärmen */
-
 img {
   max-width: 100%;
   border-radius: var(--corners);
@@ -71,7 +69,15 @@ a:hover {
   align-items: center;
   margin-bottom: 4rem;
 }
-/* svg styling */
+
+.hero img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
 .icons {
   list-style-type: none;
   margin: 0;
@@ -93,24 +99,14 @@ ul svg {
   fill: var(--marina);
 }
 
-.hero {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  text-align: center;
-}
-
-.hero img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
-/* footer */
 footer {
   text-align: center;
 }
+
+footer h2 {
+  margin: 2rem 0;
+}
+
 .footer-text {
   line-height: 1.5;
   display: grid;
@@ -129,14 +125,9 @@ footer {
 .footer-text-box li {
   line-height: 2;
 }
-.h2-footer {
-  margin: 2rem 0;
-}
 .footer-text .social:hover {
   fill: var(--marina);
 }
-
-/* Styla projekt*/
 
 main {
   margin-top: 5rem;
@@ -144,7 +135,7 @@ main {
   text-align: center;
 }
 
-.section-title {
+main > h2 {
   margin-bottom: 2rem;
 }
 
@@ -154,12 +145,12 @@ main {
   gap: 3rem;
 }
 
-.project {
+main article {
   background-color: var(--white);
   padding: 2rem;
   border-radius: var(--corners);
   display: grid;
-  grid-template-columns: 1fr; /* Mobil: 1 kolumn */
+  grid-template-columns: 1fr;
   gap: 2rem;
   text-align: left;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
